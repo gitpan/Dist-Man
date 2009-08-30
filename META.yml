@@ -1,0 +1,56 @@
+---
+name: Dist-Man
+version: v0.0.1
+author: []
+abstract: a simple starter kit for any module
+license: perl
+resources:
+  homepage: http://web-cpan.berlios.de/modules/Dist-Man/
+  license: http://dev.perl.org/licenses/
+  repository: https://svn.berlios.de/svnroot/repos/web-cpan/Module-Starter-to-Dist-Man-temp/trunk/
+requires:
+  ExtUtils::Command: 0
+  File::Spec: 0
+  Getopt::Long: 0
+  Pod::Usage: 0
+  Test::More: 0
+  perl: v5.8.1
+configure_requires:
+  Module::Build: 0.35
+provides:
+  Dist::Man:
+    file: lib/Dist/Man.pm
+    version: v0.0.1
+  Dist::Man::App:
+    file: lib/Dist/Man/App.pm
+    version: v0.0.1
+  Dist::Man::BuilderSet:
+    file: lib/Dist/Man/BuilderSet.pm
+    version: v0.0.1
+  Dist::Man::Plugin::Template:
+    file: lib/Dist/Man/Plugin/Template.pm
+    version: v0.0.1
+  Dist::Man::Simple:
+    file: lib/Dist/Man/Simple.pm
+    version: v0.0.1
+generated_by: Module::Build version 0.35
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+keywords:
+  - automate
+  - begin
+  - cpan
+  - cpan-distro
+  - cpan package
+  - cpan-package
+  - dist
+  - distribution
+  - distro
+  - generate
+  - man
+  - manager
+  - module
+  - package
+  - scaffolding
+  - starter
