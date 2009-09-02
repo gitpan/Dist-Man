@@ -1,6 +1,6 @@
 ---
 name: Dist-Man
-version: v0.0.1
+version: v0.0.2
 author: []
 abstract: a simple starter kit for any module
 license: perl
@@ -20,19 +20,19 @@ configure_requires:
 provides:
   Dist::Man:
     file: lib/Dist/Man.pm
-    version: v0.0.1
+    version: v0.0.2
   Dist::Man::App:
     file: lib/Dist/Man/App.pm
-    version: v0.0.1
+    version: v0.0.2
   Dist::Man::BuilderSet:
     file: lib/Dist/Man/BuilderSet.pm
-    version: v0.0.1
+    version: v0.0.2
   Dist::Man::Plugin::Template:
     file: lib/Dist/Man/Plugin/Template.pm
-    version: v0.0.1
+    version: v0.0.2
   Dist::Man::Simple:
     file: lib/Dist/Man/Simple.pm
-    version: v0.0.1
+    version: v0.0.2
 generated_by: Module::Build version 0.35
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
