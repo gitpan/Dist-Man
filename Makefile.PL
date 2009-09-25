@@ -14,8 +14,7 @@ WriteMakefile
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [
-                           'bin/pl-dist-man',
-                           'bin/pl-dist-man~'
+                           'bin/pl-dist-man'
                          ],
           'PL_FILES' => {}
         )
