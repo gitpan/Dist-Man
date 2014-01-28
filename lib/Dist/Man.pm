@@ -11,11 +11,11 @@ Dist::Man - a simple starter kit for any module
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.6
 
 =cut
 
-our $VERSION = '0.0.5';
+our $VERSION = '0.0.6';
 
 =head1 SYNOPSIS
 
@@ -148,8 +148,6 @@ L<http://rt.cpan.org>.  I will be notified, and then you'll automatically be
 notified of progress on your bug as I make changes.
 
 =head1 LICENSE
-
-=head2 Module-Starter
 
 Copyright 2005-2009 Andy Lester, Ricardo Signes and C.J. Adams-Collier,
 All Rights Reserved.

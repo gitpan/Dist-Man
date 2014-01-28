@@ -51,23 +51,23 @@
    "provides" : {
       "Dist::Man" : {
          "file" : "lib/Dist/Man.pm",
-         "version" : "v0.0.5"
+         "version" : "v0.0.6"
       },
       "Dist::Man::App" : {
          "file" : "lib/Dist/Man/App.pm",
-         "version" : "v0.0.5"
+         "version" : "v0.0.6"
       },
       "Dist::Man::BuilderSet" : {
          "file" : "lib/Dist/Man/BuilderSet.pm",
-         "version" : "v0.0.5"
+         "version" : "v0.0.6"
       },
       "Dist::Man::Plugin::Template" : {
          "file" : "lib/Dist/Man/Plugin/Template.pm",
-         "version" : "v0.0.5"
+         "version" : "v0.0.6"
       },
       "Dist::Man::Simple" : {
          "file" : "lib/Dist/Man/Simple.pm",
-         "version" : "v0.0.5"
+         "version" : "v0.0.6"
       }
    },
    "release_status" : "stable",
@@ -80,5 +80,5 @@
          "url" : "https://bitbucket.org/shlomif/web-cpan"
       }
    },
-   "version" : "v0.0.5"
+   "version" : "v0.0.6"
 }
